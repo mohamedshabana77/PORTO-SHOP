@@ -1,0 +1,275 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+header div {
+  align-self: center;
+}
+
+.headerLinks a {
+  text-decoration: none;
+  padding: 30px;
+  position: relative;
+  font-family: monospace;
+  padding-bottom: 60px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.headerBtn {
+  padding: 25px 40px;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* ----------------------------------------------------- */
+
+.home {
+  background-image: url("./images/shop23_home_slide1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+.home p {
+  font-family: "Nanum Brush Script", cursive;
+  color: #c59b9c;
+  font-size: 4.8571em;
+  letter-spacing: 0.01em;
+  position: absolute;
+  top: 22%;
+  left: 115px;
+}
+/* ------------------------- */
+.welcome {
+  text-align: center;
+}
+.welcome p {
+  font-family: "Nanum Brush Script", cursive;
+  font-size: xx-large;
+  margin-top: -6px;
+}
+/* ------------------- */
+
+.banners {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.banners div {
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 580px;
+  height: 350px;
+}
+
+.banners div:nth-of-type(1) {
+  width: 580px;
+
+  background-image: url("./images/shop23_home_banner1.jpg");
+}
+.banners div:nth-of-type(2) {
+  width: 325px;
+  background-image: url("./images/shop23_home_banner2.jpg");
+}
+.banners div:nth-of-type(3) {
+  width: 325px;
+  background-image: url("./images/shop23_home_banner3.jpg");
+}
+.banners div:nth-of-type(4) {
+  width: 325px;
+  background-image: url("./images/shop23_home_banner4.jpg");
+}
+.banners div:nth-of-type(5) {
+  width: 325px;
+  background-image: url("./images/shop23_home_banner5.jpg");
+}
+.banners div:nth-of-type(6) {
+  width: 580px;
+  background-image: url("./images/shop23_home_banner6.jpg");
+}
+/* ----------------------------- */
+footer {
+  background-color: #7777771f;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer > div {
+  width: 350px;
+  height: 350px;
+  padding: 35px;
+  color: black;
+}
+footer > div h1 {
+  letter-spacing: 3px;
+  line-height: 45px;
+  color: black;
+  font-family: sans-serif;
+}
+footer > div h3 {
+  font-family: monospace;
+  font-size: 20px;
+  margin-bottom: 45px;
+}
+footer > div input {
+  font-size: 18px;
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+  border: 1px solid transparent;
+  margin: 15px 0;
+}
+footer > div span {
+  display: inline-block;
+  color: gray;
+  padding: 11px;
+  margin: 3px;
+}
+footer > div i {
+  font-size: 35px;
+  padding: 3px;
+  margin: 3px;
+}
+footer > div i:hover {
+  opacity: 0.6;
+}
+
+/* ------------------------------------ */
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 20px;
+  align-self: start;
+  width: 39%;
+}
+.right {
+  padding-top: 50px;
+}
+/*  */
+input {
+  width: 100%;
+  border: 1px solid #777777;
+  height: 27px;
+}
+textarea {
+  resize: none;
+}
+.left div {
+  margin: 12px;
+}
+label {
+  margin-bottom: 0px;
+  color: #777777;
+}
+.sendbtn {
+  color: white;
+  background-color: #c59b9c;
+  padding: 12px;
+  border-style: none;
+}
+
+.right span {
+  font-weight: bold;
+}
+.right p {
+  color: #777777;
+}
+.right div h4 {
+  color: #c59b9c;
+}
+/* ---------------------------------- */
+.about {
+  padding: 50px 100px;
+}
+.about p {
+  color: #777;
+  padding-bottom: 25px;
+}
+.about p:last-child {
+  color: black;
+  font-weight: bold;
+}
+
+.why {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 35px;
+}
+.child {
+  background-color: white;
+  padding: 35px;
+  margin: 15px;
+}
+.child .icon {
+  font-size: 85px;
+  color: #c59b9c;
+}
+
+.child:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* -------------------------------------- */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 35px 0;
+}
+.top {
+  text-transform: uppercase;
+  padding: 25px;
+  background-color: #c59b9c54;
+  display: block;
+  text-align: center;
+  width: 50%;
+  display: block;
+  margin: 25px auto;
+  color: white;
+}
+.card {
+  width: 300px;
+  margin: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+.card::before {
+  content: "NEW";
+  position: relative;
+  padding: 1px 13px;
+  background-color: #62b959;
+  top: 22px;
+  left: 15px;
+  color: white;
+}
+.card div {
+  padding: 12px;
+}
+#oldprice {
+  text-decoration: line-through;
+  margin-right: 16px;
+}
